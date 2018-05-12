@@ -3471,14 +3471,13 @@ nav.in li {
  margin-left: 1vh;
 }
 /* Blog */
-.blogheader {
-    
-}
 
 .blog-container {
 	padding: 10vh;
 	width: 95%;
-    text-align: center;
+	display: flex;
+	text-align: center;
+	flex-flow: row-wrap;
 }
 
 .b-title-area {
@@ -3486,9 +3485,9 @@ nav.in li {
 }
 .meta-box {
 	text-align: left;
+	font-size: 1.35em;
 }
 .featured-image-container {
-	width: 70vh;
 }
 .featured-image-container img {
 	width: 100%;
